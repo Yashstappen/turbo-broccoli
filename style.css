@@ -1,0 +1,25 @@
+h5{
+    color: rgb(169, 22, 22);
+    color: rgba(red, green, blue, alpha);
+}
+body{
+    background-image: url(dog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+div h5{
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}                            
+
+main p{
+    width: 800px;
+    padding: 10px;
+    margin: 15px;
+    border: 2px;
+    border: 2px solid burlywood;
+    text-align: center;
+}
+
