@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">
+            <img src="smiling-young-man-illustration_1308-173524.avif" alt="">
+            <div class="icon">📷</div>
+        </div>
+    </div>
+<h2>My Profile</h2>
+
+        <div class="form">
+            <p>My Name is <b>Yash Sharma</b></p>
+
+            <p>I'm a student of Ai&ml department in SMVIT</p>
+
+            <p>This is my profile</p>
+
+        </div>
+
+    </div>
+    <div class="circle-row">
+    <div class="circle" onclick="showSection('qualifications')"><u>Qualifications</u></div>
+    <div class="circle" onclick="showSection('experience')"><u>Experience</u></div>
+    <div class="circle" onclick="showSection('socials')"><u>Socials</u></div>
+</div>
+<div id="qualifications" class="section">
+    <h3>Qualifications</h3>
+    <p>Btech in Ai&ml</p>
+</div>
+
+<div id="experience" class="section">
+    <h3>Experience</h3>
+    <p>2nd year student</p>
+</div>
+
+<div id="socials" class="section">
+    <h3>Socials</h3>
+    <p>number:81726476932</p>
+</div>
+
+<script>
+function showSection(id) {
+    // Hide all sections
+    document.querySelectorAll('.section').forEach(sec => {
+        sec.style.display = "none";
+    });
+
+    // Show the clicked one
+    document.getElementById(id).style.display = "block";
+}
+</script>
+</body>
+</html> 
